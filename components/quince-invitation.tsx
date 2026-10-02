@@ -38,7 +38,6 @@ export default function QuinceInvitation() {
     <section className="hero" aria-label="Invitación de XV años">
       <div className="hero-image" style={{ backgroundImage: `url(${dressImage})` }} />
       <div className="hero-wash" />
-      <div className="hero-flower flower-one">❀</div><div className="hero-flower flower-two">✿</div>
       <div className="hero-content">
         <p className="hero-kicker">Con la bendición de Dios</p><div className="hero-rule" />
         <p className="roman">XV</p><p className="script hero-name">Rubí Montserrat</p><p className="hero-surname">DIAZ MEDINA</p>
@@ -54,13 +53,13 @@ export default function QuinceInvitation() {
 
       <section className="verses section-frame reveal"><SectionHeading eyebrow="Con fe y gratitud" title="Palabras que guían" /><div className="verse-grid"><blockquote><Star aria-hidden="true" /><p>“Señor: guárdame como la niña de tus ojos; escóndeme bajo la sombra de tus alas.”</p><cite>— Salmos 17:8</cite></blockquote><blockquote><Star aria-hidden="true" /><p>“Porque tú formaste mis entrañas; tú me hiciste en el vientre de mi madre.”</p><cite>— Salmos 139:13</cite></blockquote><blockquote><Star aria-hidden="true" /><p>“Grandes cosas ha hecho Jehová con nosotros; estaremos alegres.”</p><cite>— Salmos 126:3</cite></blockquote></div></section>
 
-      <section className="date-section reveal"><div className="date-copy"><p className="eyebrow">Aparta la fecha</p><h2><span>Sábado</span><strong>31</strong><span>Octubre · 2026</span></h2><div className="time"><Clock3 aria-hidden="true" /> 9:00 PM</div><Countdown /></div><Calendar /></section>
+      <section className="date-section reveal"><div className="date-copy"><p className="eyebrow">Aparta la fecha</p><h2><span className="date-weekday">Sábado</span><span className="date-crown"><Crown aria-hidden="true" /></span><strong>31</strong><span className="date-month">Octubre 2026</span></h2><div className="time"><Clock3 aria-hidden="true" /> 9:00 PM</div><Countdown /></div><Calendar /></section>
 
       <section className="details section-frame reveal"><SectionHeading eyebrow="El lugar de nuestra celebración" title="Una velada especial" /><div className="location-card"><div className="location-art"><MapPin aria-hidden="true" /><span>Le<br />Parisiem</span></div><div className="location-copy"><h3>Salón Le Parisiem</h3><p className="detail-time">9:00 PM</p><a className="gold-button" href="https://maps.app.goo.gl/B2KPRTVAPUG5zRTW9" target="_blank" rel="noreferrer"><MapPin data-icon="inline-start" /> Ver ubicación</a></div></div><div className="thanks"><div><p className="eyebrow">Acción de gracias</p><h3>Salón Le Parisiem</h3></div><strong>9:30 PM</strong></div></section>
 
       <section className="dress section-frame reveal"><div className="dress-icon"><Shirt aria-hidden="true" /></div><SectionHeading eyebrow="Para una noche de gala" title="Código de vestimenta" /><p className="dress-title">Rigurosa etiqueta</p><p className="dress-sub">Black Tie</p></section>
 
-      <section className="rsvp section-frame reveal"><div className="rsvp-flourish">✦</div><SectionHeading eyebrow="Tu presencia es mi mejor regalo" title="Será un honor contar contigo" /><p>Confirma tu asistencia y acompáñanos a celebrar esta noche tan especial.</p><a className="rsvp-button" href="https://wa.link/jediax" target="_blank" rel="noreferrer"><MessageCircle data-icon="inline-start" /> Confirmar asistencia</a></section>
+      <section className="rsvp section-frame reveal"><SectionHeading eyebrow="Tu presencia es mi mejor regalo" title="Será un honor contar contigo" /><p>Confirma tu asistencia y acompáñanos a celebrar esta noche tan especial.</p><a className="rsvp-button" href="https://wa.link/jediax" target="_blank" rel="noreferrer"><MessageCircle data-icon="inline-start" /> Confirmar asistencia</a></section>
     </div>
 
     <footer className="footer"><div className="footer-flowers">❀ ❁ ❀</div><p>Gracias por ser parte de este día tan especial.</p><p className="script footer-name">Rubí Montserrat</p><p className="footer-xv">XV</p><div className="footer-date">31 <span>•</span> 10 <span>•</span> 2026</div><Crown className="footer-crown" aria-hidden="true" /><a className="back-top" href="#"><ArrowUp aria-hidden="true" /> <span className="sr-only">Volver al inicio</span></a></footer>
