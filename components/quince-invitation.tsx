@@ -16,9 +16,11 @@ function SectionHeading({ eyebrow, title }: { eyebrow: string; title: string }) 
 }
 
 function Countdown() {
-  const [remaining, setRemaining] = useState(eventDate - Date.now())
+  const [remaining, setRemaining] = useState(0)
   useEffect(() => {
-    const timer = window.setInterval(() => setRemaining(eventDate - Date.now()), 1000)
+    const updateRemaining = () => setRemaining(eventDate - Date.now())
+    updateRemaining()
+    const timer = window.setInterval(updateRemaining, 1000)
     return () => window.clearInterval(timer)
   }, [])
   const expired = remaining <= 0
