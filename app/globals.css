@@ -14,7 +14,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 a { color: inherit; }
 .skip-link { position: fixed; left: 1rem; top: -4rem; z-index: 20; background: #fffaf5; padding: .7rem 1rem; border: 1px solid #caa276; }
 .skip-link:focus { top: 1rem; }
-.invitation-site { height: 100svh; overflow-y: auto; overflow-x: hidden; scroll-behavior: smooth; scroll-snap-type: y mandatory; overscroll-behavior-y: contain; background: #fbf8f3 url('/gold-paper-background.jpeg') center / cover fixed; font-family: Georgia, 'Times New Roman', serif; }
+.invitation-site { height: 100svh; overflow-y: auto; overflow-x: hidden; scroll-behavior: smooth; scroll-snap-type: y mandatory; overscroll-behavior-y: contain; background: #f4eadc; font-family: Georgia, 'Times New Roman', serif; }
 .invitation-site::selection { background: #dbc0b4; }
 .hero { position: relative; display: grid; min-height: 100svh; place-items: center; isolation: isolate; scroll-snap-align: start; scroll-snap-stop: always; color: #fff9f2; background: #35201d; }
 .hero-image { position: absolute; inset: 0; z-index: -3; background-position: center 18%; background-size: cover; filter: saturate(.72) contrast(.92); }
