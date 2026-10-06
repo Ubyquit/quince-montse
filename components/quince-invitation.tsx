@@ -42,7 +42,7 @@ export default function QuinceInvitation() {
       <div className="hero-wash" />
       <div className="hero-content">
         <p className="hero-kicker">Con la bendición de Dios</p><div className="hero-rule" />
-        <p className="roman">XV</p><p className="script hero-name">Rubí Montserrat</p><p className="hero-surname">DIAZ MEDINA</p>
+        <p className="roman">XV</p><p className="script hero-name">Rubí<br />Montserrat</p><p className="hero-surname">DIAZ MEDINA</p>
         <div className="hero-divider"><Crown aria-hidden="true" /><span /></div><p className="hero-event">Mis XV años</p><p className="hero-date">Sábado 31 de octubre de 2026</p>
       </div>
       <a href="#contenido" className="scroll-cue"><span>Desliza para descubrir</span><ArrowDown aria-hidden="true" /></a>
