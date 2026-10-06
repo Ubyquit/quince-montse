@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { ArrowDown, ArrowUp, CalendarDays, Check, Clock3, Crown, Heart, MapPin, MessageCircle, Sparkles, Shirt, Star } from 'lucide-react'
 
-const dressImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-27%20at%2017.59.16-n5sbtxWACXk3alGqFRYNcGb1rI21E2.jpeg'
+const dressImage = '/rose-curtain-background.jpg'
 const invitationImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-27%20at%2017.57.22-6NVDhYXe8yuvyae9j4Y0j8PPTKevLi.jpeg'
 const eventDate = new Date('2026-10-31T21:00:00-06:00').getTime()
 
@@ -57,7 +57,7 @@ export default function QuinceInvitation() {
 
       <section className="date-section reveal"><div className="date-copy"><p className="eyebrow">Aparta la fecha</p><h2><span className="date-weekday">Sábado</span><span className="date-crown"><Crown aria-hidden="true" /></span><strong>31</strong><span className="date-month">Octubre 2026</span></h2><div className="time"><Clock3 aria-hidden="true" /> 9:00 PM</div><Countdown /></div><Calendar /></section>
 
-      <section className="details section-frame reveal"><SectionHeading eyebrow="El lugar de nuestra celebración" title="Una velada especial" /><div className="location-card"><div className="location-art"><img src="/le-parisien-logo.png" alt="Le Parisien Salón de Eventos" /></div><div className="location-copy"><h3>LE PARISIEM</h3><p className="location-type">Salón de eventos</p><p className="detail-date">Sábado · 31 de octubre · 2026</p><p className="detail-time">9:00 PM</p><a className="gold-button" href="https://maps.app.goo.gl/B2KPRTVAPUG5zRTW9" target="_blank" rel="noreferrer"><MapPin data-icon="inline-start" /> Ver ubicación</a></div></div><div className="thanks"><div><p className="eyebrow">ACCIÓN DE GRACIAS</p><p>En el mismo lugar</p></div><strong>9:30 PM</strong></div></section>
+      <section className="details section-frame reveal"><SectionHeading eyebrow="El lugar de nuestra celebración" title="Una velada especial" /><div className="location-card"><div className="location-art"><img src="/le-parisien-logo.png" alt="Le Parisien Salón de Eventos" /></div><div className="location-copy"><h3>LE PARISIEN</h3><p className="location-type">Salón de eventos</p><p className="detail-date">Sábado · 31 de octubre · 2026</p><p className="detail-time">9:00 PM</p><a className="gold-button" href="https://maps.app.goo.gl/B2KPRTVAPUG5zRTW9" target="_blank" rel="noreferrer"><MapPin data-icon="inline-start" /> Ver ubicación</a></div></div><div className="thanks"><div><p className="eyebrow">ACCIÓN DE GRACIAS</p><p>En el mismo lugar</p></div><strong>9:30 PM</strong></div></section>
 
       <section className="dress section-frame reveal"><div className="dress-icon"><Shirt aria-hidden="true" /></div><SectionHeading eyebrow="Para una noche de gala" title="Código de vestimenta" /><p className="dress-title">Formal</p></section>
 
