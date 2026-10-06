@@ -64,7 +64,7 @@ export default function QuinceInvitation() {
       <section className="rsvp section-frame reveal"><SectionHeading eyebrow="Tu presencia es mi mejor regalo" title="Será un honor contar contigo" /><p>Confirma tu asistencia y acompáñanos a celebrar esta noche tan especial.</p><a className="rsvp-button" href="https://wa.link/jediax" target="_blank" rel="noreferrer"><MessageCircle data-icon="inline-start" /> Confirmar asistencia</a></section>
     </div>
 
-    <footer className="footer"><div className="footer-flowers">❀ ❁ ❀</div><p>Gracias por ser parte de este día tan especial.</p><p className="script footer-name">Rubí Montserrat</p><p className="footer-xv">XV</p><div className="footer-date">31 <span>•</span> 10 <span>•</span> 2026</div><Crown className="footer-crown" aria-hidden="true" /><a className="back-top" href="#"><ArrowUp aria-hidden="true" /> <span className="sr-only">Volver al inicio</span></a></footer>
+    <footer className="footer"><div className="footer-flowers">❀ ❁ ❀</div><p>Gracias por ser parte de este día tan especial.</p><p className="script footer-name">Rubí Montserrat</p><p className="footer-xv">XV</p><div className="footer-date">31 <span>•</span> 10 <span>•</span> 2026</div><a className="back-top" href="#"><ArrowUp aria-hidden="true" /> <span className="sr-only">Volver al inicio</span></a></footer>
   </main>
 }
 
