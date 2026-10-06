@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react'
 import { ArrowDown, ArrowUp, CalendarDays, Check, Clock3, Crown, Heart, MapPin, MessageCircle, Sparkles, Shirt, Star } from 'lucide-react'
 
-const dressImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-27%20at%2017.59.16-n5sbtxWACXk3alGqFRYNcGb1rI21E2.jpeg'
+const dressImage = '/rose-curtain-background.jpg'
 const invitationImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-27%20at%2017.57.22-6NVDhYXe8yuvyae9j4Y0j8PPTKevLi.jpeg'
 const eventDate = new Date('2026-10-31T21:00:00-06:00').getTime()
 
