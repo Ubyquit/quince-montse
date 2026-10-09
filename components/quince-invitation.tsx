@@ -1,7 +1,7 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import { ArrowDown, ArrowUp, CalendarDays, Check, Clock3, Crown, Gift, Heart, Mail, MapPin, MessageCircle, Sparkles, Shirt, Star } from 'lucide-react'
+import { ArrowDown, ArrowUp, CalendarDays, Check, Clock3, Crown, Heart, MapPin, MessageCircle, Sparkles, Shirt, Star } from 'lucide-react'
 
 const dressImage = '/rose-curtain-background.jpg'
 const invitationImage = 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-09-27%20at%2017.57.22-6NVDhYXe8yuvyae9j4Y0j8PPTKevLi.jpeg'
@@ -63,7 +63,7 @@ export default function QuinceInvitation() {
 
       <section className="rsvp section-frame reveal"><SectionHeading eyebrow="Tu presencia es mi mejor regalo" title="Será un honor contar contigo" /><p>Confirma tu asistencia y acompáñanos a celebrar esta noche tan especial.</p><div className="rsvp-actions"><a className="rsvp-button" href="https://wa.link/n1xa5s" target="_blank" rel="noreferrer"><MessageCircle data-icon="inline-start" /> Confirmación con la mamá</a><a className="rsvp-button" href="https://wa.link/xn4d05" target="_blank" rel="noreferrer"><MessageCircle data-icon="inline-start" /> Confirmación con el papá</a></div></section>
 
-      <section className="gifts section-frame reveal"><div className="gift-panel"><div className="gift-brand">Mesa de<br /><strong>REGALOS</strong></div><p className="gift-message">Tu presencia es mi verdadero regalo,<br />pero si deseas hacerme un detalle, lo<br />agradeceré de corazón.</p><div className="gift-icons" aria-hidden="true"><Mail /><Gift /></div><p className="gift-note">También tendré<br />lluvia de sobres<br />en el evento.</p></div></section>
+      <section className="gifts section-frame reveal"><div className="gift-panel"><div className="gift-brand">Mesa de<br /><strong>REGALOS</strong></div><p className="gift-message">Tu presencia es mi verdadero regalo,<br />pero si deseas hacerme un detalle, lo<br />agradeceré de corazón.</p><div className="gift-icons" aria-hidden="true"><img src="/gift-envelope.png" alt="" /><img src="/gift-box.png" alt="" /></div><p className="gift-note">También tendré<br />lluvia de sobres<br />en el evento.</p></div></section>
     </div>
 
     <footer className="footer"><div className="footer-flowers">❀ ❁ ❀</div><p>Gracias por ser parte de este día tan especial.</p><p className="script footer-name">Rubí Montserrat</p><p className="footer-xv">XV</p><div className="footer-date">31 <span>•</span> 10 <span>•</span> 2026</div><a className="back-top" href="#"><ArrowUp aria-hidden="true" /> <span className="sr-only">Volver al inicio</span></a></footer>
